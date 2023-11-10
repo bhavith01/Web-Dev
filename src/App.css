@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,800;1,900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+:root {
+  --red: #d01c28;
+  --gray: #5a5959;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 10vh;
+
+}
+* {
+  margin: 0;
+}
+nav ul {
+  display: flex;
+  padding: 0;
+  list-style: none;
+  gap: 20%;
+  justify-content: center;
+
+  align-items: center;
+}
+
+button {
+  all: unset;
+  padding: 6px 16px;
+  background: var(--red);
+  height: 32px;
+  color: white;
+  font-weight: 500;
+}
+button:hover {
+  
+  font-weight: 800;  
+  transform: scale(1.1);
+  transition: 0.5s;
+
+}
+
+
+.logo{
+
+  height: 43px;
+}
+
+.heading {
+  
+  font-size: 100px;
+  font-weight: 800;
+  line-height: 1.1;
+  
+}
+.heading:hover{
+  filter: drop-shadow(0 0 0.75rem rgb(236, 186, 196));
+}
+
+.subhead {
+  margin-top: 5%;
+  font-size: 20px;
+}
+
+.button_sec{
+  column-gap: 5%;
+  display: flex;
+  margin-top: 5%;
+}
+
+.button_sec_2{
+  column-gap: 5%;
+  display: flex;
+  margin-top: 2%;
+}
+
+
+.main-box {
+  display: flex;
+}
+
+.written{
+  margin-left: 5%;
+  margin-top:7%;
+  margin-right: 10px; 
+}
+
+.main-box-image{
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.main-box-image:hover{
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
